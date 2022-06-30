@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className="w-full flex justify-center items-center pb-[130px] pt-[180px] md:py-[180px] overflow-clip">
+    <div className="w-full flex justify-center items-center pb-[130px] pt-[180px] md:py-[180px]">
         <div className="w-full h-[750px] md:h-fit md:max-w-[1440px] grid grid-rows-2 grid-cols-none md:grid-rows-none md:grid-cols-2 md:items-center md:justify-items-center gap-y-32">
             <div className="w-full max-w-[100vw] md:max-w-full flex flex-col justify-start md:justify-center items-center md:items-start gap-8 md:pl-24">
                 <div className="w-full flex flex-col justify-center items-center md:items-start gap-2 px-4 md:px-0">
@@ -15,9 +15,10 @@ function Banner() {
                     Get Started
                 </div>
             </div>
-            <div className="order-first md:order-last flex relative w-full overflow-x-clip ">
-                <div className="flex w-full items-center ml-8 md:ml-16">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={733} height={482}>
+            <div className="order-first md:order-last flex relative w-full">
+                <div className="flex w-full h-full items-center pl-8 md:pl-0 md:ml-16">
+                    <img src={'/images/illustration-working.svg'} className="w-[733px] h-[482px] static object-cover object-left" />
+                    <svg xmlns="http://www.w3.org/2000/svg" className='hidden' width={733} height={482}>
                             <defs>
                             <linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%">
                                 <stop offset="0%" stopColor="#183866" />
