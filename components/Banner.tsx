@@ -15,7 +15,7 @@ function Banner() {
                     Get Started
                 </div>
             </div>
-            <div className="order-first md:order-last flex relative w-full ">
+            <div className="order-first md:order-last flex relative w-full overflow-x-clip ">
                 <div className="flex w-full items-center ml-8 md:ml-16">
                     <svg xmlns="http://www.w3.org/2000/svg" width={733} height={482}>
                             <defs>
